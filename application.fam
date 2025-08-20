@@ -1,0 +1,14 @@
+App(
+    appid="clicker_app", # Must be unique
+    name="ClickerApp", # Displayed in menus
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="clicker_app",
+    cdefines=["APP_CLICKER"],
+    requires=["gui"],
+    stack_size=1024,
+    order=0,
+    fap_icon="appicon.png", # 10x10 1-bit PNG
+    fap_category="Tools",
+    fap_version="0.1",
+    fap_description="Simple button clicker : Learning how to make apps for flipper.",
+)

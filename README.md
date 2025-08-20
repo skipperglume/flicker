@@ -12,3 +12,13 @@ A simple button click counter application for Flipper Zero.
 - Use the Flipper Zero directional buttons to increment or reset the counter.
 - UP: Increment counter
 - DOWN: Reset counter
+
+
+
+```bash
+python3 -m venv ufbtVenv
+. ufbtVenv/bin/activate
+python3 -m pip install --upgrade ufbt
+ufbt vscode_dist # Set vscode paths
+ufbt launch # Flash the new app
+```
